@@ -12,7 +12,7 @@ HEIGHT = 700
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 speed = 3
 font = pygame.font.SysFont('comicsans', 16)
-
+pygame.display.set_caption("Sorting Visualizer")
 def draw(colors, arr, screen, bar_width):
     x = 0
     for i in range(len(arr)):
